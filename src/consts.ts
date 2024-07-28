@@ -46,7 +46,7 @@ export const NAV_LINKS: Array<{ title: string, path: string }> = [
   },
   {
     title: "GameHosting List",
-    path: "/gamelist",
+    path: "/gamelist.astro",
   },
   {
     title: "GameServer Panel",
