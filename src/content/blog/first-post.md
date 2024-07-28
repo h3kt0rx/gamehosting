@@ -114,9 +114,9 @@ Steam Games
  - [Evrima] 
  - [The Front] 
  - [Tower Unite] 
- - [Truck Simulator]()
- - [American Truck Simulator]()
- - [Euro Truck Simulator 2]()
+ - [Truck Simulator]
+ - [American Truck Simulator]
+ - [Euro Truck Simulator 2]
  - [Unturned] 
  - [V Rising] 
  - [Vanilla] 
@@ -148,7 +148,7 @@ Standalone Games
  - [Escape from Tarkov ] 
  - [Factorio] 
  - [Vanilla] 
- - [ModUpdate]() 
+ - [ModUpdate] 
  - [Clusterio] 
  - [Foundry VTT] 
  - [FTL: Tachyon] 
@@ -196,7 +196,7 @@ Standalone Games
  - [Urban Terror] 
  - [Veloren] 
  - [Vintage Story] 
- - [Wolfenstein: Enemy Territory] 
- - [ET: Legacy] 
- - [Wine ] 
+ - [Wolfenstein: Enemy Territory]
+ - [ET: Legacy]
+ - [Wine]
  - [Xonotic]
