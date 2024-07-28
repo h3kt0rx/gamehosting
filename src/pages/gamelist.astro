@@ -15,11 +15,11 @@ export const getStaticPaths = (async () => {
 type Props = InferGetStaticPropsType<typeof getStaticPaths>;
 
 const { post } = Astro.props;
-const { Content } = await post.render();
+const { Content } = await GameList.render();
 ---
 
-<BaseLayout title="404">
-  <BlogPost post={post}>
+<BaseLayout>
+  <BlogPost post={GameList}>
     <GameList />
   </BlogPost>
 </BaseLayout>
