@@ -5,17 +5,7 @@ import BlogPost from '../layouts/BlogPost.astro';
 import { getAllPosts } from '@/utils';
 import BaseLayout from '../layouts/Base.astro';
 
-export const getStaticPaths = (async () => {
-	const blogEntries = await getAllPosts();
-	return blogEntries.map((post) => ({
-		params: { slug: post.slug },
-		props: { post },
-	}));
-}) satisfies GetStaticPaths;
-type Props = InferGetStaticPropsType<typeof getStaticPaths>;
-
 const { post } = Astro.props;
-const { Content } = await GameList.render();
 ---
 
 <BaseLayout>
