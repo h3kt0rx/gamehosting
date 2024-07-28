@@ -65,7 +65,7 @@ export const NAV_LINKS: Array<{ title: string, path: string }> = [
     path: "https://panel.ortegatalks.net",
   },
   {
-    title: "About",
+    title: "Game Servers List",
     path: "/about",
   },
 ];
