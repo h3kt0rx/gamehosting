@@ -61,11 +61,11 @@ export const NAV_LINKS: Array<{ title: string, path: string }> = [
     path: "/",
   },
   {
-    title: "Gameserver Panel",
+    title: "Game Server Panel",
     path: "https://panel.ortegatalks.net",
   },
   {
-    title: "Game Servers List",
+    title: "Game Hosting List",
     path: "/about",
   },
 ];
