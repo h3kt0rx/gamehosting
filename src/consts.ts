@@ -61,7 +61,7 @@ export const NAV_LINKS: Array<{ title: string, path: string }> = [
     path: "/",
   },
   {
-    title: "Panel,
+    title: "Panel",
     path: "https://panel.ortegatalks.net",
   },
   {
