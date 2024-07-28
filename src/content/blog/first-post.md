@@ -1,13 +1,13 @@
 ---
-title: 'Game Hosting List Launch'
+title: 'Game Hosting List'
 description: 'Launch'
 pubDate: 'Jul 28 2024'
 #heroImage: 
 #  src: '/blog-placeholder-5.jpg'
 #  alt: 'blog placeholder'
-tags: ["placeholder", "test"]
+tags: ["games", "hosting", "list"]
 updatedDate: 'Jul 28 2024'
-series: "example"
+series: "gamelist"
 order: 1
 ---
 

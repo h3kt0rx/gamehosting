@@ -18,7 +18,7 @@ type SocialLink = {
 }
 
 export const siteConfig: Config = {
-  title: "Game Server Hosting",
+  title: "GameServer Hosting",
   description: "",
   lang: "en-GB",
   profile: {
@@ -45,11 +45,11 @@ export const NAV_LINKS: Array<{ title: string, path: string }> = [
     path: "/",
   },
   {
-    title: "Game Server Panel",
+    title: "GameServer Panel",
     path: "https://panel.ortegatalks.net",
   },
   {
-    title: "Game Hosting List",
+    title: "GameHosting List",
     path: "/about",
   },
 ];
