@@ -45,11 +45,15 @@ export const NAV_LINKS: Array<{ title: string, path: string }> = [
     path: "/",
   },
   {
+    title: "GameHosting List",
+    path: "/about",
+  },
+  {
     title: "GameServer Panel",
     path: "https://panel.ortegatalks.net",
   },
   {
-    title: "GameHosting List",
-    path: "/about",
+    title: "Contact Us",
+    path: "mailto:ortegatalks@gmail.com",
   },
 ];
