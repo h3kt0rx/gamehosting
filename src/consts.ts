@@ -23,7 +23,6 @@ export const siteConfig: Config = {
   lang: "en-GB",
   profile: {
     author: "OrtegaTalks",
-    description: "your bio description"
   }
 }
 
@@ -34,24 +33,9 @@ export const siteConfig: Config = {
 */
 export const socialLinks: Array<SocialLink> = [
   {
-    icon: "mdi:github",
-    friendlyName: "Github",
-    link: "https://github.com/kirontoo/astro-theme-cody",
-  },
-  {
-    icon: "mdi:linkedin",
-    friendlyName: "LinkedIn",
-    link: "#",
-  },
-  {
     icon: "mdi:email",
     friendlyName: "email",
-    link: "mailto:ndangamy@gmail.com",
-  },
-  {
-    icon: "mdi:rss",
-    friendlyName: "rss",
-    link: "/rss.xml"
+    link: "mailto:ortegatalks@gmail.com",
   }
 ];
 
