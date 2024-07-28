@@ -1,6 +1,11 @@
 ---
+import Layout from '../layouts/Base.astro';
 ---
-Steam Games
+
+<Layout
+	title="GameServer List"
+>
+	<h1 class="title">Steam Games</h1>
         - [7 Days To Die](7_days_to_die)
         - [Abiotic Factor](abiotic_factor/)
         - [ARK: Survival Ascended](ark_survival_ascended)
@@ -118,7 +123,8 @@ Steam Games
         - [VEIN](vein)
         - [Wurm Unlimited](wurm_unlimited/)
 
-Standalone Games
+	<h1 class="title">Standalone Games</h1>
+
         - [Among Us](among_us)
         - [Impostor Server](among_us/impostor_server)
         - [CrewLink Server](among_us/crewlink_server)
@@ -190,3 +196,5 @@ Standalone Games
         - [ET: Legacy](wolfenstein_enemy_territory/etlegacy)
       - [Wine (Generic/Template Egg)](wine/generic)
       - [Xonotic](xonotic)
+</Layout>
+
