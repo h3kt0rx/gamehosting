@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Base.astro';
+import BlogPost from '../../layouts/BlogPost.astro';
 import {Content as GameList} from './gamelist.md';
 ---
 
@@ -9,8 +10,8 @@ import {Content as GameList} from './gamelist.md';
 	title="GameServer List"
 >
 <h1>GameList</h1>
-<p>
-<GameList />
-</p>
+<BlogPost post={post}>
+  <GameList />
+</BlogPost>
 </Layout>
 
