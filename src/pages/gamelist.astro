@@ -1,18 +1,23 @@
 ---
-import Layout from '../layouts/Base.astro';
-import BlogPost from '../layouts/BlogPost.astro';
 import {Content as GameList} from './gamelist.md';
+import type { InferGetStaticPropsType, GetStaticPaths } from 'astro';
+import BlogPost from '../../layouts/BlogPost.astro';
 import { getAllPosts } from '@/utils';
+
+export const getStaticPaths = (async () => {
+	const blogEntries = await getAllPosts();
+	return blogEntries.map((post) => ({
+		params: { slug: post.slug },
+		props: { post },
+	}));
+}) satisfies GetStaticPaths;
+type Props = InferGetStaticPropsType<typeof getStaticPaths>;
+
+const { post } = Astro.props;
+const { Content } = await post.render();
 ---
 
-
-
-<Layout
-	title="GameServer List"
->
-<h1>GameList</h1>
-<BlogPost post={GameList}>
-  <GameList />
+<BlogPost post={post}>
+	<GameList />
 </BlogPost>
-</Layout>
 
