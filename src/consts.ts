@@ -54,6 +54,6 @@ export const NAV_LINKS: Array<{ title: string, path: string }> = [
   },
   {
     title: "Contact Us",
-    path: "mailto:ortegatalks@gmail.com",
+    path: "/contactus",
   },
 ];
