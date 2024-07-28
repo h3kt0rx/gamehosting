@@ -18,7 +18,7 @@ type SocialLink = {
 }
 
 export const siteConfig: Config = {
-  title: "GameHosting",
+  title: "Game Server Hosting",
   description: "",
   lang: "en-GB",
   profile: {
